@@ -15,6 +15,12 @@ main {
   background-color: #060208;
 }
 
+h2 {
+  color: #ffffff;
+  font-family: -we-webkit-pictograph;
+  margin-left: 100px;
+}
+
 #redBoxlogo {
   display: flex;
   margin-left: 12.5%;
@@ -57,9 +63,6 @@ main {
   justify-content: space-around;
 }
 
-#navBar {
-  
-}
 
 .navClass {
   
@@ -73,7 +76,7 @@ main {
 }
 
 /*----------------------------------------------   
---Banner slider with via codepen.io
+--Banner slider with via https://codepen.io/JyothiLakkavaram
 -----------------------------------------------  */
 @keyframes slide
         {
@@ -86,34 +89,55 @@ main {
             54%{left:-300%;}
             63%{left:-300%;}
             72%{left:-400%;}
-			81%{left:-400%;}
-			90%{left:-500%;}
-			100%{left:-500%;}
+            81%{left:-400%;}
+            90%{left:-500%;}
+            100%{left:-500%;}
         }
 
         #slider 
         {
             overflow: hidden;
+           
         }
 
        #slider figure
         {
             position:relative;
             width:600%;
-            margin:0px;
+            margin: 0px;
             left:0px;
             text-align:left;
-            animation: 30s slide infinite;
+            animation: 20s slide infinite;
+            
         }
 
         #slider figure img
         {
             float:left;
-            width:16.6666%;
+            min-width:16.6666%;
+            max-width: 100%;
+            min-height: 25%;
+            max-height: 1460px;
+            justify-content: space-between;
           
-            height:50%;   
+               
         }
+
+        
+     
 
         /*----------------------------------------------
         End of banner key frames
         --------------------------------------------*/
+
+        /*-----------Movie tracks --------*/
+
+        .track { 
+          display:flex;
+          align-content: center;
+          justify-content: space-around;
+          margin-inline-start: 100px;
+          margin-inline-end: 100px;
+
+
+        }
