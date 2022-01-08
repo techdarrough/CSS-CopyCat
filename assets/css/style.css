@@ -1,0 +1,74 @@
+
+* {
+  
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin: 0;
+  padding: 0;
+  background-color: #060208;
+}
+
+#redBoxlogo {
+  display: flex;
+  margin-left: 12.5%;
+  font-size: x-large;
+  font-family: -webkit-pictograph;
+}
+
+#redBoxlogo a {
+  font-weight: 700;
+  text-decoration: none;
+  color: #ffffff;
+  vertical-align: top;
+}
+
+#redBoxlogo img {
+  
+  height: 1.6em;
+  width: auto;
+}
+
+#gradBackground {
+  background-color: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 1%,
+    rgba(181, 39, 114, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+
+  width: auto;
+  height: 160px;
+  margin: 0 auto;
+}
+
+#menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+#navBar {
+  
+}
+
+.navClass {
+  
+  text-decoration: none;
+  font-family: -webkit-pictograph;
+  color: #ffffff;
+  
+}
+#search {
+  margin-left: 75%;
+}
+
